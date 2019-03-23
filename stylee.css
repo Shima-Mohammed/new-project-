@@ -1,0 +1,342 @@
+body
+{
+    
+}
+.container-fluid
+{
+    padding-right:  0px ; 
+    padding-left: 0px ;
+}
+/*first section */ 
+.First
+{
+    background-image: url(images/cover.jpg) ; 
+    background-repeat: no-repeat ; 
+    background-size: cover ; 
+    background-attachment: fixed ; 
+    height: 600px ;
+   
+}
+.firstOp
+{
+    background-color: rgba(2,2,2,0.7);
+    height: 600px ;
+}
+.firstOp h1
+{
+    color:white ;
+    padding-top: 200px ;
+    padding-bottom: 10px ;
+    font-size: 76px ;
+}
+.firstOp p
+{
+    color:white ;
+    
+}
+.firstOp button 
+{
+    border-radius: 0px ; 
+    background-color: transparent ; 
+    border:1px solid white ;
+    color:white ;
+}
+
+/* end of first section */ 
+
+/* navbar*/
+.Our_Nav .navbar-default 
+{
+    border-color: white ;
+    background-color: white ;
+    
+}
+.Our_Nav .navbar-brand
+{
+    color:#444 ;
+    font-size : 30px ;
+    font-weight: 600 ;
+    padding-top: 20px ;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    background-color: white ; 
+    color:#cc1;
+}
+.Our_Nav a
+{
+    font-size: 16px ;
+    color:#ccc ;
+    padding-top: 20px ;
+}
+.Our_Nav li
+{
+  
+    padding-top: 5px ;
+}
+/* end of navbar */
+
+
+/* choose */ 
+
+.choose
+{
+    height: 500px ;
+     background-color: #f3f3f3 ; 
+    padding-bottom: 50px ;
+ 
+}
+@media only screen and (max-width: 990px) {
+   .choose
+{
+    height: 1000px ;
+    
+ 
+}
+}
+.choose h1 
+{
+    color : #222 ; 
+    padding-top: 50px ;
+    font-weight: bold ;
+    padding-bottom: 75px ;
+}
+.choose .ch-post 
+{
+    height: 200px ;
+    background-color: white ;
+     margin-bottom: 75px ;
+}
+.ch-post .fa
+{
+    font-size: 40px ;
+    color:white  ;
+    width: 100px ;
+    height: 100px ;
+    border-radius: 50% ;
+    background-color: black ;
+    line-height: 100px ;
+    position: relative ; 
+    top:-50px ;
+    transition: all 2s ;
+    
+}
+.ch-post:hover  .fa
+{
+  transform:scale(1.1 , 1.1) rotate(360deg);
+}
+.ch-post h4
+{
+    position: relative ; 
+    top : -25px ;
+    color: #222 ;
+}
+.ch-post p
+{
+    position: relative ; 
+    top : -25px ;
+    color: #cc1 ;
+}
+/* end of choose */ 
+/* story*/ 
+.story
+{
+    margin-bottom: 30px ;
+    padding-bottom: 50px ;
+}
+.story h1 
+{
+    color : #222 ; 
+    padding-top: 50px ;
+    font-weight: bold ;
+    padding-bottom: 75px ;
+}
+.story p 
+{
+    color:#cc1 ; 
+    font-weight: 600px ;
+    
+}
+.fstory
+{
+   
+}
+
+/* carousel */
+.carousel-indicators
+{
+    position: static ; 
+    width: 100% ;
+    margin-left: auto ;
+    padding-top: 20px ;
+   
+}
+.carousel-indicators li
+{
+    border:1px solid #cc1 ; 
+}
+ .carousel-indicators .active
+{
+    background-color: #cc1 ;
+}
+/* end of carousel */
+
+/* end of story */ 
+/* subscribe */ 
+.subscribe
+{
+    background-image: url(images/06.jpg) ; 
+    background-repeat: no-repeat ; 
+    background-size: cover  ;
+    background-position: fixed ; 
+    min-height:   300px ;
+    margin-bottom: 30px ;
+    
+}
+.subscribe .subOp
+{
+    background-color: rgba(2,2,2,0.7);
+    min-height:  300px ;
+     margin-bottom: 30px ;
+    padding-bottom: 50px ;
+}
+.subscribe .subOp h1 
+{
+    color:#fff ;
+    padding-top: 50px;
+    padding-bottom: 10px ; 
+    letter-spacing: 2px ;
+    font-weight: bold ;
+    
+}
+.subscribe .subOp p
+{
+    color : white ; 
+    padding-bottom: 30px ;
+    
+}
+.subscribe .subOp input 
+{
+    background-color: transparent ; 
+    border-radius: 0px ;
+    color:white ;
+    border : 1px solid white ;
+    
+    margin-right: -5px ;
+}
+.subscribe .subOp button 
+{
+    background-color: transparent ; 
+    border-radius: 0px ;
+    color:white ;
+   border-bottom: 1px solid white ;
+   border-right: 1px solid white ;
+   border-top: 1px solid white ;
+   border-left: 1px solid white ;
+    
+   
+}
+/* end of subscribe */ 
+/* menu */ 
+.menu
+{
+   min-height:   650px ;
+    background-color: white ;
+    margin-bottom: 130px ;
+}
+
+.menu h1
+{
+   color:#222 ; 
+    padding-top: 30px ;
+    padding-bottom: 120px ; 
+    font-weight: bold ;
+}
+.img
+{
+    max-width: 100% ;
+    transition: all 2s ; 
+  
+    padding-bottom: 20px ;
+}
+.img:hover
+{
+    transform: rotate(5deg);
+}
+.con1 h4 
+{
+    color:#222 ; 
+    font-weight: bold ; 
+    float: left ;
+    padding-bottom: 10px ;
+    
+}
+.con1 p 
+{
+    color:#cc1 ; 
+    font-weight: bold ; 
+    float: left ;
+    padding-bottom: 10px;
+    
+}
+.con1 span 
+{
+    color:#222 ; 
+    font-weight: bold ; 
+    padding-bottom: 10px ;
+    float: left ;
+    font-size: 33px ;
+    
+}
+.clr
+{
+    clear: both ;
+}
+.all
+{
+    position: relative ; 
+    bottom: 70px ;
+   
+}
+
+/* end of menu */ 
+/* start of stat */ 
+.stat 
+{
+    min-height: 400px ; 
+    background-color: rgb(1,1,1);
+    padding-bottom: 50px ;
+   
+}
+.stat h1 
+{
+    color:white ; 
+    font-weight: bold ; 
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    text-transform: uppercase ; 
+    letter-spacing: 2px ;
+}
+.stat .fa 
+{
+    color:#ccc ; 
+    font-size :66px ;
+    padding-bottom: 20px ;
+}
+.stat p 
+{
+    font-size:  20px ; 
+    color:#ccc ;
+     
+}
+.stat .no
+{
+    font-size :45px ; 
+    color:#fff ;
+   
+}
+.statHo:hover  .fa
+{
+   color:white ; 
+}
+/* end of stat */ 
